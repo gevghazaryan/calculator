@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.calculator {
+  box-sizing: border-box;
+  width: 200px;
+  height: 270px;
+  border: 1px solid #000;
+}
+
+.screen {
+  box-sizing: border-box;  
+  width: 180px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.main-keys {
+  width: 120px;
+  height: 160px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+input[type='submit'] {
+  width: 40px;
+  height: 40px;
+}
